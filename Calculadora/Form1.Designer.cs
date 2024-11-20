@@ -29,6 +29,26 @@
         private void InitializeComponent()
         {
             this.btnPanel = new System.Windows.Forms.Panel();
+            this.btnCos = new System.Windows.Forms.Button();
+            this.btnFractionX = new System.Windows.Forms.Button();
+            this.btnE = new System.Windows.Forms.Button();
+            this.btnLn = new System.Windows.Forms.Button();
+            this.btnSin = new System.Windows.Forms.Button();
+            this.btnAbsoluteValue = new System.Windows.Forms.Button();
+            this.btnCsc = new System.Windows.Forms.Button();
+            this.btnLog = new System.Windows.Forms.Button();
+            this.btnTanh = new System.Windows.Forms.Button();
+            this.btnExp = new System.Windows.Forms.Button();
+            this.btnSec = new System.Windows.Forms.Button();
+            this.btnSqrRoot = new System.Windows.Forms.Button();
+            this.btnCosh = new System.Windows.Forms.Button();
+            this.btnCot = new System.Windows.Forms.Button();
+            this.btnN = new System.Windows.Forms.Button();
+            this.btnSinh = new System.Windows.Forms.Button();
+            this.btnSqr = new System.Windows.Forms.Button();
+            this.btnTan = new System.Windows.Forms.Button();
+            this.btnMod = new System.Windows.Forms.Button();
+            this.btnPi = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnComma = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
@@ -51,26 +71,6 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.resultLabel = new System.Windows.Forms.Label();
             this.operationLabel = new System.Windows.Forms.Label();
-            this.btnFractionX = new System.Windows.Forms.Button();
-            this.btnLn = new System.Windows.Forms.Button();
-            this.btnAbsoluteValue = new System.Windows.Forms.Button();
-            this.btnLog = new System.Windows.Forms.Button();
-            this.btnExp = new System.Windows.Forms.Button();
-            this.btnSqrRoot = new System.Windows.Forms.Button();
-            this.btnN = new System.Windows.Forms.Button();
-            this.btnSqr = new System.Windows.Forms.Button();
-            this.btnPi = new System.Windows.Forms.Button();
-            this.btnMod = new System.Windows.Forms.Button();
-            this.btnTan = new System.Windows.Forms.Button();
-            this.btnSinh = new System.Windows.Forms.Button();
-            this.btnCot = new System.Windows.Forms.Button();
-            this.btnCosh = new System.Windows.Forms.Button();
-            this.btnSec = new System.Windows.Forms.Button();
-            this.btnTanh = new System.Windows.Forms.Button();
-            this.btnCsc = new System.Windows.Forms.Button();
-            this.btnSin = new System.Windows.Forms.Button();
-            this.btnE = new System.Windows.Forms.Button();
-            this.btnCos = new System.Windows.Forms.Button();
             this.btnPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -119,10 +119,330 @@
             this.btnPanel.Controls.Add(this.btnClear);
             this.btnPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnPanel.Location = new System.Drawing.Point(0, 176);
-            this.btnPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPanel.Margin = new System.Windows.Forms.Padding(2);
             this.btnPanel.Name = "btnPanel";
             this.btnPanel.Size = new System.Drawing.Size(526, 336);
             this.btnPanel.TabIndex = 0;
+            // 
+            // btnCos
+            // 
+            this.btnCos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnCos.FlatAppearance.BorderSize = 0;
+            this.btnCos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCos.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnCos.Location = new System.Drawing.Point(102, 260);
+            this.btnCos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCos.Name = "btnCos";
+            this.btnCos.Size = new System.Drawing.Size(45, 49);
+            this.btnCos.TabIndex = 1;
+            this.btnCos.Text = "cos";
+            this.btnCos.UseVisualStyleBackColor = false;
+            this.btnCos.Click += new System.EventHandler(this.btnCos_Click);
+            // 
+            // btnFractionX
+            // 
+            this.btnFractionX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnFractionX.FlatAppearance.BorderSize = 0;
+            this.btnFractionX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFractionX.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFractionX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnFractionX.Location = new System.Drawing.Point(208, 260);
+            this.btnFractionX.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFractionX.Name = "btnFractionX";
+            this.btnFractionX.Size = new System.Drawing.Size(45, 49);
+            this.btnFractionX.TabIndex = 1;
+            this.btnFractionX.Text = "1/x";
+            this.btnFractionX.UseVisualStyleBackColor = false;
+            this.btnFractionX.Click += new System.EventHandler(this.get_fraction);
+            // 
+            // btnE
+            // 
+            this.btnE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnE.FlatAppearance.BorderSize = 0;
+            this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnE.Location = new System.Drawing.Point(37, 260);
+            this.btnE.Margin = new System.Windows.Forms.Padding(4);
+            this.btnE.Name = "btnE";
+            this.btnE.Size = new System.Drawing.Size(45, 49);
+            this.btnE.TabIndex = 18;
+            this.btnE.Text = "e";
+            this.btnE.UseVisualStyleBackColor = false;
+            this.btnE.Click += new System.EventHandler(this.btnE_Click);
+            // 
+            // btnLn
+            // 
+            this.btnLn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnLn.FlatAppearance.BorderSize = 0;
+            this.btnLn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnLn.Location = new System.Drawing.Point(155, 260);
+            this.btnLn.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLn.Name = "btnLn";
+            this.btnLn.Size = new System.Drawing.Size(45, 49);
+            this.btnLn.TabIndex = 18;
+            this.btnLn.Text = "ln";
+            this.btnLn.UseVisualStyleBackColor = false;
+            this.btnLn.Click += new System.EventHandler(this.get_ln);
+            // 
+            // btnSin
+            // 
+            this.btnSin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnSin.FlatAppearance.BorderSize = 0;
+            this.btnSin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSin.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnSin.Location = new System.Drawing.Point(102, 203);
+            this.btnSin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSin.Name = "btnSin";
+            this.btnSin.Size = new System.Drawing.Size(45, 49);
+            this.btnSin.TabIndex = 17;
+            this.btnSin.Text = "sin";
+            this.btnSin.UseVisualStyleBackColor = false;
+            this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
+            // 
+            // btnAbsoluteValue
+            // 
+            this.btnAbsoluteValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnAbsoluteValue.FlatAppearance.BorderSize = 0;
+            this.btnAbsoluteValue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbsoluteValue.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbsoluteValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnAbsoluteValue.Location = new System.Drawing.Point(208, 203);
+            this.btnAbsoluteValue.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAbsoluteValue.Name = "btnAbsoluteValue";
+            this.btnAbsoluteValue.Size = new System.Drawing.Size(45, 49);
+            this.btnAbsoluteValue.TabIndex = 17;
+            this.btnAbsoluteValue.Text = "|x|";
+            this.btnAbsoluteValue.UseVisualStyleBackColor = false;
+            this.btnAbsoluteValue.Click += new System.EventHandler(this.get_absolute_value);
+            // 
+            // btnCsc
+            // 
+            this.btnCsc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnCsc.FlatAppearance.BorderSize = 0;
+            this.btnCsc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCsc.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCsc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnCsc.Location = new System.Drawing.Point(37, 203);
+            this.btnCsc.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCsc.Name = "btnCsc";
+            this.btnCsc.Size = new System.Drawing.Size(45, 49);
+            this.btnCsc.TabIndex = 16;
+            this.btnCsc.Text = "csc";
+            this.btnCsc.UseVisualStyleBackColor = false;
+            this.btnCsc.Click += new System.EventHandler(this.btnCsc_Click);
+            // 
+            // btnLog
+            // 
+            this.btnLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnLog.FlatAppearance.BorderSize = 0;
+            this.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLog.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnLog.Location = new System.Drawing.Point(155, 203);
+            this.btnLog.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(45, 49);
+            this.btnLog.TabIndex = 16;
+            this.btnLog.Text = "log";
+            this.btnLog.UseVisualStyleBackColor = false;
+            this.btnLog.Click += new System.EventHandler(this.get_log);
+            // 
+            // btnTanh
+            // 
+            this.btnTanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnTanh.FlatAppearance.BorderSize = 0;
+            this.btnTanh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTanh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTanh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnTanh.Location = new System.Drawing.Point(102, 146);
+            this.btnTanh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTanh.Name = "btnTanh";
+            this.btnTanh.Size = new System.Drawing.Size(45, 49);
+            this.btnTanh.TabIndex = 15;
+            this.btnTanh.Text = "tanh";
+            this.btnTanh.UseVisualStyleBackColor = false;
+            this.btnTanh.Click += new System.EventHandler(this.btnTanh_Click);
+            // 
+            // btnExp
+            // 
+            this.btnExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnExp.FlatAppearance.BorderSize = 0;
+            this.btnExp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExp.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnExp.Location = new System.Drawing.Point(208, 146);
+            this.btnExp.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExp.Name = "btnExp";
+            this.btnExp.Size = new System.Drawing.Size(45, 49);
+            this.btnExp.TabIndex = 15;
+            this.btnExp.Text = "exp";
+            this.btnExp.UseVisualStyleBackColor = false;
+            this.btnExp.Click += new System.EventHandler(this.get_exp);
+            // 
+            // btnSec
+            // 
+            this.btnSec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnSec.FlatAppearance.BorderSize = 0;
+            this.btnSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSec.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnSec.Location = new System.Drawing.Point(37, 146);
+            this.btnSec.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSec.Name = "btnSec";
+            this.btnSec.Size = new System.Drawing.Size(45, 49);
+            this.btnSec.TabIndex = 14;
+            this.btnSec.Text = "sec";
+            this.btnSec.UseVisualStyleBackColor = false;
+            this.btnSec.Click += new System.EventHandler(this.btnSec_Click);
+            // 
+            // btnSqrRoot
+            // 
+            this.btnSqrRoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnSqrRoot.FlatAppearance.BorderSize = 0;
+            this.btnSqrRoot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSqrRoot.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSqrRoot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnSqrRoot.Location = new System.Drawing.Point(155, 146);
+            this.btnSqrRoot.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSqrRoot.Name = "btnSqrRoot";
+            this.btnSqrRoot.Size = new System.Drawing.Size(45, 49);
+            this.btnSqrRoot.TabIndex = 14;
+            this.btnSqrRoot.Text = "√";
+            this.btnSqrRoot.UseVisualStyleBackColor = false;
+            this.btnSqrRoot.Click += new System.EventHandler(this.get_sqr_root);
+            // 
+            // btnCosh
+            // 
+            this.btnCosh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnCosh.FlatAppearance.BorderSize = 0;
+            this.btnCosh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCosh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCosh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnCosh.Location = new System.Drawing.Point(102, 89);
+            this.btnCosh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCosh.Name = "btnCosh";
+            this.btnCosh.Size = new System.Drawing.Size(45, 49);
+            this.btnCosh.TabIndex = 12;
+            this.btnCosh.Text = "cosh";
+            this.btnCosh.UseVisualStyleBackColor = false;
+            this.btnCosh.Click += new System.EventHandler(this.btnCosh_Click);
+            // 
+            // btnCot
+            // 
+            this.btnCot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnCot.FlatAppearance.BorderSize = 0;
+            this.btnCot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCot.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnCot.Location = new System.Drawing.Point(37, 89);
+            this.btnCot.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCot.Name = "btnCot";
+            this.btnCot.Size = new System.Drawing.Size(45, 49);
+            this.btnCot.TabIndex = 10;
+            this.btnCot.Text = "cot";
+            this.btnCot.UseVisualStyleBackColor = false;
+            this.btnCot.Click += new System.EventHandler(this.btnCot_Click);
+            // 
+            // btnN
+            // 
+            this.btnN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnN.FlatAppearance.BorderSize = 0;
+            this.btnN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnN.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnN.Location = new System.Drawing.Point(208, 89);
+            this.btnN.Margin = new System.Windows.Forms.Padding(4);
+            this.btnN.Name = "btnN";
+            this.btnN.Size = new System.Drawing.Size(45, 49);
+            this.btnN.TabIndex = 12;
+            this.btnN.Text = "n!";
+            this.btnN.UseVisualStyleBackColor = false;
+            this.btnN.Click += new System.EventHandler(this.get_factorial);
+            // 
+            // btnSinh
+            // 
+            this.btnSinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnSinh.FlatAppearance.BorderSize = 0;
+            this.btnSinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSinh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnSinh.Location = new System.Drawing.Point(102, 32);
+            this.btnSinh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSinh.Name = "btnSinh";
+            this.btnSinh.Size = new System.Drawing.Size(45, 49);
+            this.btnSinh.TabIndex = 7;
+            this.btnSinh.Text = "sinh";
+            this.btnSinh.UseVisualStyleBackColor = false;
+            this.btnSinh.Click += new System.EventHandler(this.btnSinh_Click);
+            // 
+            // btnSqr
+            // 
+            this.btnSqr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnSqr.FlatAppearance.BorderSize = 0;
+            this.btnSqr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSqr.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSqr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnSqr.Location = new System.Drawing.Point(155, 89);
+            this.btnSqr.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSqr.Name = "btnSqr";
+            this.btnSqr.Size = new System.Drawing.Size(45, 49);
+            this.btnSqr.TabIndex = 10;
+            this.btnSqr.Text = "x²";
+            this.btnSqr.UseVisualStyleBackColor = false;
+            this.btnSqr.Click += new System.EventHandler(this.get_sqr);
+            // 
+            // btnTan
+            // 
+            this.btnTan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnTan.FlatAppearance.BorderSize = 0;
+            this.btnTan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTan.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnTan.Location = new System.Drawing.Point(37, 32);
+            this.btnTan.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTan.Name = "btnTan";
+            this.btnTan.Size = new System.Drawing.Size(45, 49);
+            this.btnTan.TabIndex = 3;
+            this.btnTan.Text = " tan";
+            this.btnTan.UseVisualStyleBackColor = false;
+            this.btnTan.Click += new System.EventHandler(this.btnTan_Click);
+            // 
+            // btnMod
+            // 
+            this.btnMod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnMod.FlatAppearance.BorderSize = 0;
+            this.btnMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMod.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnMod.Location = new System.Drawing.Point(208, 32);
+            this.btnMod.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMod.Name = "btnMod";
+            this.btnMod.Size = new System.Drawing.Size(45, 49);
+            this.btnMod.TabIndex = 7;
+            this.btnMod.Text = "mod";
+            this.btnMod.UseVisualStyleBackColor = false;
+            this.btnMod.Click += new System.EventHandler(this.get_module);
+            // 
+            // btnPi
+            // 
+            this.btnPi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
+            this.btnPi.FlatAppearance.BorderSize = 0;
+            this.btnPi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPi.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
+            this.btnPi.Location = new System.Drawing.Point(155, 32);
+            this.btnPi.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPi.Name = "btnPi";
+            this.btnPi.Size = new System.Drawing.Size(45, 49);
+            this.btnPi.TabIndex = 3;
+            this.btnPi.Text = " π";
+            this.btnPi.UseVisualStyleBackColor = false;
+            this.btnPi.Click += new System.EventHandler(this.add_pi);
             // 
             // btnEquals
             // 
@@ -132,7 +452,7 @@
             this.btnEquals.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEquals.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
             this.btnEquals.Location = new System.Drawing.Point(443, 260);
-            this.btnEquals.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEquals.Margin = new System.Windows.Forms.Padding(4);
             this.btnEquals.Name = "btnEquals";
             this.btnEquals.Size = new System.Drawing.Size(45, 49);
             this.btnEquals.TabIndex = 0;
@@ -148,7 +468,7 @@
             this.btnComma.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComma.ForeColor = System.Drawing.Color.White;
             this.btnComma.Location = new System.Drawing.Point(378, 260);
-            this.btnComma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnComma.Margin = new System.Windows.Forms.Padding(4);
             this.btnComma.Name = "btnComma";
             this.btnComma.Size = new System.Drawing.Size(45, 49);
             this.btnComma.TabIndex = 0;
@@ -164,7 +484,7 @@
             this.btnPlus.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
             this.btnPlus.Location = new System.Drawing.Point(443, 203);
-            this.btnPlus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPlus.Margin = new System.Windows.Forms.Padding(4);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(45, 49);
             this.btnPlus.TabIndex = 0;
@@ -180,7 +500,7 @@
             this.btn3.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.White;
             this.btn3.Location = new System.Drawing.Point(378, 203);
-            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn3.Margin = new System.Windows.Forms.Padding(4);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(45, 49);
             this.btn3.TabIndex = 0;
@@ -196,7 +516,7 @@
             this.btnMinus.Font = new System.Drawing.Font("Nirmala UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
             this.btnMinus.Location = new System.Drawing.Point(443, 146);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinus.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(45, 49);
             this.btnMinus.TabIndex = 0;
@@ -212,7 +532,7 @@
             this.btn6.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.White;
             this.btn6.Location = new System.Drawing.Point(378, 146);
-            this.btn6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn6.Margin = new System.Windows.Forms.Padding(4);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(45, 49);
             this.btn6.TabIndex = 0;
@@ -228,7 +548,7 @@
             this.btn0.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.White;
             this.btn0.Location = new System.Drawing.Point(317, 260);
-            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn0.Margin = new System.Windows.Forms.Padding(4);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(45, 49);
             this.btn0.TabIndex = 0;
@@ -244,7 +564,7 @@
             this.btnMult.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
             this.btnMult.Location = new System.Drawing.Point(443, 89);
-            this.btnMult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMult.Margin = new System.Windows.Forms.Padding(4);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(45, 49);
             this.btnMult.TabIndex = 0;
@@ -260,7 +580,7 @@
             this.btn2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.White;
             this.btn2.Location = new System.Drawing.Point(317, 203);
-            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2.Margin = new System.Windows.Forms.Padding(4);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(45, 49);
             this.btn2.TabIndex = 0;
@@ -276,7 +596,7 @@
             this.btn9.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.White;
             this.btn9.Location = new System.Drawing.Point(378, 89);
-            this.btn9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn9.Margin = new System.Windows.Forms.Padding(4);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(45, 49);
             this.btn9.TabIndex = 0;
@@ -292,7 +612,7 @@
             this.btn5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.White;
             this.btn5.Location = new System.Drawing.Point(317, 146);
-            this.btn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn5.Margin = new System.Windows.Forms.Padding(4);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(45, 49);
             this.btn5.TabIndex = 0;
@@ -309,7 +629,7 @@
             this.btnReload.ForeColor = System.Drawing.Color.White;
             this.btnReload.Image = global::repasoExamen1.Properties.Resources.refresh_2_16;
             this.btnReload.Location = new System.Drawing.Point(264, 260);
-            this.btnReload.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReload.Margin = new System.Windows.Forms.Padding(4);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(45, 49);
             this.btnReload.TabIndex = 0;
@@ -324,7 +644,7 @@
             this.btnDiv.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
             this.btnDiv.Location = new System.Drawing.Point(443, 32);
-            this.btnDiv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDiv.Margin = new System.Windows.Forms.Padding(4);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(45, 49);
             this.btnDiv.TabIndex = 0;
@@ -340,7 +660,7 @@
             this.btn1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.White;
             this.btn1.Location = new System.Drawing.Point(264, 203);
-            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(45, 49);
             this.btn1.TabIndex = 0;
@@ -356,7 +676,7 @@
             this.btn8.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.White;
             this.btn8.Location = new System.Drawing.Point(317, 89);
-            this.btn8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn8.Margin = new System.Windows.Forms.Padding(4);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(45, 49);
             this.btn8.TabIndex = 0;
@@ -372,7 +692,7 @@
             this.btn4.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.White;
             this.btn4.Location = new System.Drawing.Point(264, 146);
-            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn4.Margin = new System.Windows.Forms.Padding(4);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(45, 49);
             this.btn4.TabIndex = 0;
@@ -388,7 +708,7 @@
             this.btnPercentage.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPercentage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(218)))), ((int)(((byte)(175)))));
             this.btnPercentage.Location = new System.Drawing.Point(378, 32);
-            this.btnPercentage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPercentage.Margin = new System.Windows.Forms.Padding(4);
             this.btnPercentage.Name = "btnPercentage";
             this.btnPercentage.Size = new System.Drawing.Size(45, 49);
             this.btnPercentage.TabIndex = 0;
@@ -404,7 +724,7 @@
             this.btn7.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.White;
             this.btn7.Location = new System.Drawing.Point(264, 89);
-            this.btn7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn7.Margin = new System.Windows.Forms.Padding(4);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(45, 49);
             this.btn7.TabIndex = 0;
@@ -420,7 +740,7 @@
             this.btnChangeSign.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangeSign.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(218)))), ((int)(((byte)(175)))));
             this.btnChangeSign.Location = new System.Drawing.Point(317, 32);
-            this.btnChangeSign.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChangeSign.Margin = new System.Windows.Forms.Padding(4);
             this.btnChangeSign.Name = "btnChangeSign";
             this.btnChangeSign.Size = new System.Drawing.Size(45, 49);
             this.btnChangeSign.TabIndex = 0;
@@ -436,7 +756,7 @@
             this.btnClear.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(218)))), ((int)(((byte)(175)))));
             this.btnClear.Location = new System.Drawing.Point(264, 32);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(45, 49);
             this.btnClear.TabIndex = 0;
@@ -465,316 +785,7 @@
             this.operationLabel.Size = new System.Drawing.Size(526, 32);
             this.operationLabel.TabIndex = 2;
             this.operationLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // btnFractionX
-            // 
-            this.btnFractionX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnFractionX.FlatAppearance.BorderSize = 0;
-            this.btnFractionX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFractionX.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFractionX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnFractionX.Location = new System.Drawing.Point(208, 260);
-            this.btnFractionX.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFractionX.Name = "btnFractionX";
-            this.btnFractionX.Size = new System.Drawing.Size(45, 49);
-            this.btnFractionX.TabIndex = 1;
-            this.btnFractionX.Text = "1/x";
-            this.btnFractionX.UseVisualStyleBackColor = false;
-            // 
-            // btnLn
-            // 
-            this.btnLn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnLn.FlatAppearance.BorderSize = 0;
-            this.btnLn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnLn.Location = new System.Drawing.Point(155, 260);
-            this.btnLn.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLn.Name = "btnLn";
-            this.btnLn.Size = new System.Drawing.Size(45, 49);
-            this.btnLn.TabIndex = 18;
-            this.btnLn.Text = "ln";
-            this.btnLn.UseVisualStyleBackColor = false;
-            // 
-            // btnAbsoluteValue
-            // 
-            this.btnAbsoluteValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnAbsoluteValue.FlatAppearance.BorderSize = 0;
-            this.btnAbsoluteValue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbsoluteValue.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbsoluteValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnAbsoluteValue.Location = new System.Drawing.Point(208, 203);
-            this.btnAbsoluteValue.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAbsoluteValue.Name = "btnAbsoluteValue";
-            this.btnAbsoluteValue.Size = new System.Drawing.Size(45, 49);
-            this.btnAbsoluteValue.TabIndex = 17;
-            this.btnAbsoluteValue.Text = "|x|";
-            this.btnAbsoluteValue.UseVisualStyleBackColor = false;
-            // 
-            // btnLog
-            // 
-            this.btnLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnLog.FlatAppearance.BorderSize = 0;
-            this.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLog.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnLog.Location = new System.Drawing.Point(155, 203);
-            this.btnLog.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(45, 49);
-            this.btnLog.TabIndex = 16;
-            this.btnLog.Text = "log";
-            this.btnLog.UseVisualStyleBackColor = false;
-            // 
-            // btnExp
-            // 
-            this.btnExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnExp.FlatAppearance.BorderSize = 0;
-            this.btnExp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExp.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnExp.Location = new System.Drawing.Point(208, 146);
-            this.btnExp.Margin = new System.Windows.Forms.Padding(4);
-            this.btnExp.Name = "btnExp";
-            this.btnExp.Size = new System.Drawing.Size(45, 49);
-            this.btnExp.TabIndex = 15;
-            this.btnExp.Text = "exp";
-            this.btnExp.UseVisualStyleBackColor = false;
-            // 
-            // btnSqrRoot
-            // 
-            this.btnSqrRoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnSqrRoot.FlatAppearance.BorderSize = 0;
-            this.btnSqrRoot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSqrRoot.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSqrRoot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnSqrRoot.Location = new System.Drawing.Point(155, 146);
-            this.btnSqrRoot.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSqrRoot.Name = "btnSqrRoot";
-            this.btnSqrRoot.Size = new System.Drawing.Size(45, 49);
-            this.btnSqrRoot.TabIndex = 14;
-            this.btnSqrRoot.Text = "√";
-            this.btnSqrRoot.UseVisualStyleBackColor = false;
-            // 
-            // btnN
-            // 
-            this.btnN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnN.FlatAppearance.BorderSize = 0;
-            this.btnN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnN.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnN.Location = new System.Drawing.Point(208, 89);
-            this.btnN.Margin = new System.Windows.Forms.Padding(4);
-            this.btnN.Name = "btnN";
-            this.btnN.Size = new System.Drawing.Size(45, 49);
-            this.btnN.TabIndex = 12;
-            this.btnN.Text = "n!";
-            this.btnN.UseVisualStyleBackColor = false;
-            // 
-            // btnSqr
-            // 
-            this.btnSqr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnSqr.FlatAppearance.BorderSize = 0;
-            this.btnSqr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSqr.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSqr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnSqr.Location = new System.Drawing.Point(155, 89);
-            this.btnSqr.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSqr.Name = "btnSqr";
-            this.btnSqr.Size = new System.Drawing.Size(45, 49);
-            this.btnSqr.TabIndex = 10;
-            this.btnSqr.Text = "x²";
-            this.btnSqr.UseVisualStyleBackColor = false;
-            // 
-            // btnPi
-            // 
-            this.btnPi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnPi.FlatAppearance.BorderSize = 0;
-            this.btnPi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPi.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnPi.Location = new System.Drawing.Point(155, 32);
-            this.btnPi.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPi.Name = "btnPi";
-            this.btnPi.Size = new System.Drawing.Size(45, 49);
-            this.btnPi.TabIndex = 3;
-            this.btnPi.Text = " π";
-            this.btnPi.UseVisualStyleBackColor = false;
-            // 
-            // btnMod
-            // 
-            this.btnMod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnMod.FlatAppearance.BorderSize = 0;
-            this.btnMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMod.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnMod.Location = new System.Drawing.Point(208, 32);
-            this.btnMod.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMod.Name = "btnMod";
-            this.btnMod.Size = new System.Drawing.Size(45, 49);
-            this.btnMod.TabIndex = 7;
-            this.btnMod.Text = "mod";
-            this.btnMod.UseVisualStyleBackColor = false;
-            // 
-            // btnTan
-            // 
-            this.btnTan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnTan.FlatAppearance.BorderSize = 0;
-            this.btnTan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTan.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnTan.Location = new System.Drawing.Point(37, 32);
-            this.btnTan.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTan.Name = "btnTan";
-            this.btnTan.Size = new System.Drawing.Size(45, 49);
-            this.btnTan.TabIndex = 3;
-            this.btnTan.Text = " tan";
-            this.btnTan.UseVisualStyleBackColor = false;
-            this.btnTan.Click += new System.EventHandler(this.btnTan_Click);
-            // 
-            // btnSinh
-            // 
-            this.btnSinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnSinh.FlatAppearance.BorderSize = 0;
-            this.btnSinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSinh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnSinh.Location = new System.Drawing.Point(102, 32);
-            this.btnSinh.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSinh.Name = "btnSinh";
-            this.btnSinh.Size = new System.Drawing.Size(45, 49);
-            this.btnSinh.TabIndex = 7;
-            this.btnSinh.Text = "sinh";
-            this.btnSinh.UseVisualStyleBackColor = false;
-            this.btnSinh.Click += new System.EventHandler(this.btnSinh_Click);
-            // 
-            // btnCot
-            // 
-            this.btnCot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnCot.FlatAppearance.BorderSize = 0;
-            this.btnCot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCot.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnCot.Location = new System.Drawing.Point(37, 89);
-            this.btnCot.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCot.Name = "btnCot";
-            this.btnCot.Size = new System.Drawing.Size(45, 49);
-            this.btnCot.TabIndex = 10;
-            this.btnCot.Text = "cot";
-            this.btnCot.UseVisualStyleBackColor = false;
-            this.btnCot.Click += new System.EventHandler(this.btnCot_Click);
-            // 
-            // btnCosh
-            // 
-            this.btnCosh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnCosh.FlatAppearance.BorderSize = 0;
-            this.btnCosh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCosh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCosh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnCosh.Location = new System.Drawing.Point(102, 89);
-            this.btnCosh.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCosh.Name = "btnCosh";
-            this.btnCosh.Size = new System.Drawing.Size(45, 49);
-            this.btnCosh.TabIndex = 12;
-            this.btnCosh.Text = "cosh";
-            this.btnCosh.UseVisualStyleBackColor = false;
-            this.btnCosh.Click += new System.EventHandler(this.btnCosh_Click);
-            // 
-            // btnSec
-            // 
-            this.btnSec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnSec.FlatAppearance.BorderSize = 0;
-            this.btnSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnSec.Location = new System.Drawing.Point(37, 146);
-            this.btnSec.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSec.Name = "btnSec";
-            this.btnSec.Size = new System.Drawing.Size(45, 49);
-            this.btnSec.TabIndex = 14;
-            this.btnSec.Text = "sec";
-            this.btnSec.UseVisualStyleBackColor = false;
-            this.btnSec.Click += new System.EventHandler(this.btnSec_Click);
-            // 
-            // btnTanh
-            // 
-            this.btnTanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnTanh.FlatAppearance.BorderSize = 0;
-            this.btnTanh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTanh.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTanh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnTanh.Location = new System.Drawing.Point(102, 146);
-            this.btnTanh.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTanh.Name = "btnTanh";
-            this.btnTanh.Size = new System.Drawing.Size(45, 49);
-            this.btnTanh.TabIndex = 15;
-            this.btnTanh.Text = "tanh";
-            this.btnTanh.UseVisualStyleBackColor = false;
-            this.btnTanh.Click += new System.EventHandler(this.btnTanh_Click);
-            // 
-            // btnCsc
-            // 
-            this.btnCsc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnCsc.FlatAppearance.BorderSize = 0;
-            this.btnCsc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCsc.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCsc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnCsc.Location = new System.Drawing.Point(37, 203);
-            this.btnCsc.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCsc.Name = "btnCsc";
-            this.btnCsc.Size = new System.Drawing.Size(45, 49);
-            this.btnCsc.TabIndex = 16;
-            this.btnCsc.Text = "csc";
-            this.btnCsc.UseVisualStyleBackColor = false;
-            this.btnCsc.Click += new System.EventHandler(this.btnCsc_Click);
-            // 
-            // btnSin
-            // 
-            this.btnSin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnSin.FlatAppearance.BorderSize = 0;
-            this.btnSin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSin.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnSin.Location = new System.Drawing.Point(102, 203);
-            this.btnSin.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSin.Name = "btnSin";
-            this.btnSin.Size = new System.Drawing.Size(45, 49);
-            this.btnSin.TabIndex = 17;
-            this.btnSin.Text = "sin";
-            this.btnSin.UseVisualStyleBackColor = false;
-            this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
-            // 
-            // btnE
-            // 
-            this.btnE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnE.FlatAppearance.BorderSize = 0;
-            this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnE.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnE.Location = new System.Drawing.Point(37, 260);
-            this.btnE.Margin = new System.Windows.Forms.Padding(4);
-            this.btnE.Name = "btnE";
-            this.btnE.Size = new System.Drawing.Size(45, 49);
-            this.btnE.TabIndex = 18;
-            this.btnE.Text = "e";
-            this.btnE.UseVisualStyleBackColor = false;
-            this.btnE.Click += new System.EventHandler(this.btnE_Click);
-            // 
-            // btnCos
-            // 
-            this.btnCos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(52)))));
-            this.btnCos.FlatAppearance.BorderSize = 0;
-            this.btnCos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCos.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(113)))), ((int)(((byte)(103)))));
-            this.btnCos.Location = new System.Drawing.Point(102, 260);
-            this.btnCos.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCos.Name = "btnCos";
-            this.btnCos.Size = new System.Drawing.Size(45, 49);
-            this.btnCos.TabIndex = 1;
-            this.btnCos.Text = "cos";
-            this.btnCos.UseVisualStyleBackColor = false;
-            this.btnCos.Click += new System.EventHandler(this.btnCos_Click);
+            this.operationLabel.Click += new System.EventHandler(this.operationLabel_Click);
             // 
             // Form1
             // 
@@ -786,7 +797,7 @@
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.btnPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

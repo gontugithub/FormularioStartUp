@@ -18,3 +18,13 @@ D:\2DAM\Desarrollo de Interfaces\Primer Trimestre\repasoExamen1\obj\Debug\repaso
 D:\2DAM\Desarrollo de Interfaces\Primer Trimestre\repasoExamen1\obj\Debug\repasoExamen1.csproj.CoreCompileInputs.cache
 D:\2DAM\Desarrollo de Interfaces\Primer Trimestre\repasoExamen1\obj\Debug\repasoExamen1.exe
 D:\2DAM\Desarrollo de Interfaces\Primer Trimestre\repasoExamen1\obj\Debug\repasoExamen1.pdb
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\bin\Debug\repasoExamen1.exe.config
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\bin\Debug\repasoExamen1.exe
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\bin\Debug\repasoExamen1.pdb
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.Form1.resources
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.Properties.Resources.resources
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.csproj.GenerateResource.cache
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.exe
+C:\Users\Alumno\Downloads\FormularioStartUp\Calculadora\obj\Debug\repasoExamen1.pdb
